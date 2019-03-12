@@ -8,9 +8,10 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
     "build": "tsc",
-    "dev": "nodemon --exec ./node_modules/.bin/ts-node ./src/server.ts",
-    "start": "nodemon --exec ./node_modules/.bin/ts-node ./dist/server.js",
+    "dev": "nodemon --exec ./node_modules/.bin/ts-node ./server/src/server.ts",
+    "start": "nodemon --exec ./node_modules/.bin/ts-node ./server/dist/server.js",
     "prod": "yarn build && yarn start"
   },
   "dependencies": {

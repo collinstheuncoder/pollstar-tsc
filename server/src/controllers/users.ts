@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 
 import { User } from '../models/index';
 
-const { JWT_ENCRYPTION, JWT_EXPIRATION } = '../config/index';
+import { JWT_ENCRYPTION, JWT_EXPIRATION } from '../config/index';
 
 class UsersController {
 	public async fetchAllUsers(req: Request, res: Response) {
