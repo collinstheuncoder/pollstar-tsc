@@ -22,7 +22,7 @@
     "@types/jsonwebtoken": "^8.3.2",
     "@types/mongoose": "^5.3.21",
     "@types/passport": "^1.0.0",
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
